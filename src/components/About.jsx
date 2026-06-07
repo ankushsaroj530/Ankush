@@ -49,7 +49,7 @@ function About() {
   <strong className="text-white">Central University of Karnataka</strong>, India. My journey in embedded systems started with a fascination for how microcontrollers can sense, process, and respond intelligently to the physical world.
 <br /><br />
   I specialize in building real-world embedded and IoT-based systems using{" "}
-  <strong className="text-white">Arduino, STM32, ESP32, Raspberry Pi, AI Integration with hardwareand FreeRTOS</strong>. From sensor-driven automation projects to real-time embedded prototypes, I enjoy transforming concepts into reliable, working hardware solutions, with a focus on building efficient, scalable, and reliable embedded solutions.
+  <strong className="text-white">Arduino, STM32, ESP32, Raspberry Pi, AI Integration with hardware and FreeRTOS</strong>. From sensor-driven automation projects to real-time embedded prototypes, I enjoy transforming concepts into reliable, working hardware solutions, with a focus on building efficient, scalable, and reliable embedded solutions.
 </p>
           </motion.div>
 
