@@ -45,10 +45,17 @@ function About() {
             className="flex-1 text-center lg:text-left max-w-xl"
           >
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-              I'm a <strong className="text-white">B.Tech Electronics and Communication Engineering</strong> student at the <strong className="text-white">Central University of Karnataka</strong>. 
-              My journey started with a fascination for how microcontrollers can perceive, decide, and act autonomously. 
-              I specialize in building real-world embedded prototypes using <strong className="text-white">STM32, ESP32, and FreeRTOS</strong>. 
-            </p>
+  I am a <strong className="text-white">B.Tech Electronics and Communication Engineering</strong> student at the{" "}
+  <strong className="text-white">Central University of Karnataka</strong>, passionate about designing intelligent embedded systems that connect hardware intelligence with real-world applications.
+
+  My interest in engineering is driven by curiosity about how microcontrollers perceive, process, and respond to their environment in real time. I enjoy transforming theoretical concepts into practical, working systems that solve meaningful problems.
+
+  I specialize in embedded systems development and real-time applications, with hands-on experience in{" "}
+  <strong className="text-white">STM32, ESP32, FreeRTOS, sensor interfacing, and IoT-based system design</strong>. I also have a strong interest in firmware development, peripheral programming, and low-level hardware-software integration.
+
+  Beyond core embedded systems, I am continuously exploring areas such as{" "}
+  <strong className="text-white">IoT architectures, edge computing, automation systems, and real-time operating systems</strong>, with a focus on building efficient, scalable, and reliable embedded solutions.
+</p>
           </motion.div>
 
           {/* Right Side Cards - Using grid for balance */}
