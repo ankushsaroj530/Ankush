@@ -12,14 +12,13 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    // The parent div provides the global dark background
-    <div className="bg-slate-900 text-white min-h-screen">
+    <div className="bg-slate-900 text-white min-h-screen overflow-x-hidden">
       <Navbar />
       <Hero />
       <Stats />
-      
-      {/* Consistent spacing with Tailwind classes instead of empty divs */}
-      <div className="py-8">
+
+      {/* Each section handles its own spacing */}
+      <main className="flex flex-col">
         <About />
         <Skills />
         <Projects />
@@ -27,8 +26,8 @@ function App() {
         <Certifications />
         <Resume />
         <Contact />
-      </div>
-      
+      </main>
+
       <Footer />
     </div>
   );

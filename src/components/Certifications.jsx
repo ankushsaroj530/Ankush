@@ -42,14 +42,14 @@ function Certifications() {
   return (
     <section
       id="certifications"
-      className="scroll-mt-20 py-12 bg-[#050d2a]"
+      className="scroll-mt-20 py-12 md:py-20 bg-[#050d2a]"
     >
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-4 md:px-6">
 
         {/* Heading */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-10">
           <motion.h2
-            className="text-4xl md:text-5xl font-bold text-blue-400"
+            className="text-3xl md:text-5xl font-bold text-blue-400"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -57,15 +57,13 @@ function Certifications() {
             Certifications
           </motion.h2>
 
-          <p className="text-gray-400 mt-3 max-w-2xl mx-auto">
-            Professional certifications and technical training in Embedded
-            Systems, IoT, Wireless Communication, VLSI Design, and Firmware
-            Development.
+          <p className="text-gray-400 mt-3 max-w-2xl mx-auto text-sm md:text-base">
+            Professional certifications and technical training in Embedded Systems, IoT, Wireless Communication, VLSI Design, and Firmware Development.
           </p>
         </div>
 
-        {/* Achievement Wall */}
-        <div className="grid md:grid-cols-2 gap-x-12 gap-y-2">
+        {/* Grid */}
+        <div className="grid md:grid-cols-2 gap-x-12 gap-y-6">
 
           {certifications.map((cert, index) => (
             <motion.a
@@ -78,13 +76,13 @@ function Certifications() {
               transition={{ delay: index * 0.08 }}
               viewport={{ once: true }}
               whileHover={{ x: 8 }}
-              className="group flex items-center justify-between py-5 border-b border-blue-500/20"
+              className="group flex items-center justify-between py-4 border-b border-blue-500/20"
             >
               <div className="flex items-center gap-4">
-                <span className="text-2xl">🏆</span>
+                <span className="text-xl">🏆</span>
 
                 <div>
-                  <h3 className="text-white font-semibold text-lg group-hover:text-blue-400 transition">
+                  <h3 className="text-white font-semibold text-base md:text-lg group-hover:text-blue-400 transition">
                     {cert.title}
                   </h3>
 
