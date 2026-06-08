@@ -65,7 +65,7 @@ function Footer() {
           </p>
 
           <p className="text-gray-600 text-xs mt-1">
-            Built with React • Vite • Tailwind CSS • Framer Motion
+           Crafted with Passion for Embedded Systems & IoT Innovation
           </p>
         </div>
 
